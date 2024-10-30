@@ -50,8 +50,12 @@ module.exports = defineConfig({
     port: '3000', // 挂载端口
     proxy: {
       // 生产环境
+      // '/': {
+      //   target: 'http://10.238.112.133:8080/',
+      //   ws: false
+      // }
       '/': {
-        target: 'http://10.238.112.133:8080/',
+        target: 'http://127.0.0.1:3000',
         ws: false
       }
     }

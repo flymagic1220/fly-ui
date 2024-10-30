@@ -24,6 +24,13 @@ module.exports = {
                         'table/base','table/slot','table/edit','table/clickEdit','table/validate','table/attribute'
                     ]
                 },
+                {
+                    title: '手写实现',
+                    collapsable: false, 
+                    children: [
+                        'utils/control'
+                    ]
+                },
                 
             ],
             '/':['']
