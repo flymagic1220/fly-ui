@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/',
+    base: '/fly-ui',
     title:'FUI',
     themeConfig: {
         nav: [
